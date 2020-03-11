@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,
                 str1,
                 Toast.LENGTH_SHORT).show();
-        String str2 = sparseSwitch(35);
+        String str2 = sparseSwitch(777);
         Toast.makeText(this,
                 str2,
                 Toast.LENGTH_SHORT).show();
@@ -29,26 +29,21 @@ public class MainActivity extends AppCompatActivity {
     private String packedSwitch(int i) {
         String str = null;
         switch (i) {
-            case 0: {
+            case 0:
                 str = "She is a baby";
                 break;
-            }
-            case 1: {
+            case 1:
                 str = "She is a girl";
                 break;
-            }
-            case 2: {
+            case 2:
                 str = "She is a women";
                 break;
-            }
-            case 3: {
+            case 3:
                 str = "She is a obasan";
                 break;
-            }
-            default: {
+            default:
                 str = "She is a person";
                 break;
-            }
         }
         return str;
     }
@@ -56,26 +51,21 @@ public class MainActivity extends AppCompatActivity {
     private String sparseSwitch(int age) {
         String str = null;
         switch (age) {
-            case 5: {
+            case 5:
                 str = "He is a baby";
                 break;
-            }
-            case 15: {
+            case 55555:
                 str = "He is a student";
                 break;
-            }
-            case 35: {
+            case 1000:
                 str = "He is a father";
                 break;
-            }
-            case 65: {
+            case 777:
                 str = "He is a grandpa";
                 break;
-            }
-            default: {
+            default:
                 str = "He is a person";
                 break;
-            }
         }
         return str;
     }
